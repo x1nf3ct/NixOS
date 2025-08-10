@@ -9,7 +9,7 @@
 
   outputs = inputs@{ nixpkgs, home-manager, ... }: {
     nixosConfigurations = {
-      ab0z3in4-PC = nixpkgs.lib.nixosSystem {
+      x1nf3ct-PC = nixpkgs.lib.nixosSystem {
         modules = [
           ./system/configuration.nix
           home-manager.nixosModules.home-manager
