@@ -1,6 +1,6 @@
 {
   networking = {
-    hostName = "ab0z3in4-PC";
+    hostName = "x1nf3ct-PC";
     networkmanager.enable = true;
     firewall.enable = false;
   };
