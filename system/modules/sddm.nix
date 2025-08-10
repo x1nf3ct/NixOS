@@ -2,10 +2,10 @@
 
 stdenv.mkDerivation rec {
   pname = "simple-sddm-2";
-  version = "2024-04-23";
+  version = "1.0";
 
   src = fetchFromGitHub {
-    owner = "ab0z3in4";
+    owner = "x1nf3ct";
     repo = "simple-sddm-2";
     rev = "main";
     sha256 = "sha256-2ji8kB1s9oIIy5O2cranH6tp9gAR0GUXnKMETWcEs80=";
