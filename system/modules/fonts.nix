@@ -19,7 +19,7 @@
       open-sans
       corefonts
       vista-fonts
-      roboto-serif
+      ibm-plex
       (callPackage ./fonts-custom.nix {})
     ];
   };
