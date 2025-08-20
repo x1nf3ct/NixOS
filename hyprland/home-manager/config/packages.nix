@@ -1,0 +1,46 @@
+{ pkgs, ... }:
+
+{
+  home.packages = with pkgs; [
+    gh
+    brightnessctl
+    vim
+    vscode
+    gnome-text-editor
+    wget
+    btop
+    firefox
+    brave
+    waybar
+    wlogout
+    hyprpaper
+    rofi-wayland
+    fuzzel
+    wofi
+    nitrogen
+    copyq
+    wl-clipboard
+    wl-clip-persist
+    clipse
+    redshift
+    networkmanagerapplet
+    gnome-calendar
+    gnome-system-monitor
+    gnome-disk-utility
+    pamixer
+    pavucontrol
+    flameshot
+    grim
+    slurp
+    nautilus
+    gnome-calculator
+    gthumb
+    file-roller
+    telegram-desktop
+    wasistlos
+    libreoffice-fresh
+    hunspell
+    evince
+    qbittorrent
+  ];
+}
