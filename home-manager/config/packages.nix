@@ -32,5 +32,8 @@
     hunspell
     xournalpp
     qbittorrent
+    (import ./volume-control.nix { inherit pkgs; })
+    (import ./powermenu.nix { inherit pkgs; })
+    (import ./brightness-control.nix { inherit pkgs; })
   ];
 }
