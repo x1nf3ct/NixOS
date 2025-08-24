@@ -9,6 +9,7 @@
     ./config/sxhkd.nix
     ./config/bspwm.nix
     ./config/picom.nix
+    ./config/rofi.nix
     ./config/mpv.nix
     ./config/dconf.nix
     ./config/fonts.nix
