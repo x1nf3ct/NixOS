@@ -16,6 +16,7 @@
       posy=36
       sizex=1358
       sizey=726
+
       [nitrogen]
       view=icon
       recurse=true
