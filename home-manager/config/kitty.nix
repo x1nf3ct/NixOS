@@ -12,6 +12,7 @@
       bold_italic_font = "auto";
       disable_ligatures = "always";
       cursor = "#F2D5CF";
+      cursor_trail = 1;
       cursor_text_color = "#303446";
       cursor_shape = "beam";
       cursor_underline_thickness = 2;

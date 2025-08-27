@@ -8,7 +8,6 @@
     gnumake
     (callPackage ./sddm.nix {})
     kdePackages.qt5compat
-    nodejs
     python313
     uv
     git
@@ -17,7 +16,6 @@
     unzip
     unrar
     starship
-    virtiofsd
   ];
 
   programs.nix-ld.enable = true;

@@ -30,7 +30,7 @@
     wasistlos
     libreoffice-fresh
     hunspell
-    xournalpp
+    evince
     qbittorrent
     thunderbird
     (import ./volume-control.nix { inherit pkgs; })

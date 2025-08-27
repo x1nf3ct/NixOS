@@ -3,10 +3,6 @@
 pkgs.writeShellScriptBin "powermenu" ''
   #!/usr/bin/env bash
 
-  # Theme
-  dir="$HOME/.config/rofi"
-  theme="config-power"
-
   # CMDs
   uptime="$(uptime -p | sed -e 's/up //g')"
   host="$(hostname)"
@@ -25,7 +21,7 @@ pkgs.writeShellScriptBin "powermenu" ''
     rofi -dmenu \
       -p "$host" \
       -mesg "Uptime: $uptime" \
-      -theme ${dir}/${theme}.rasi
+      -theme ~/.config/rofi/config-power.rasi
   }
 
   # Confirmation CMD
@@ -38,7 +34,7 @@ pkgs.writeShellScriptBin "powermenu" ''
          -dmenu \
          -p 'Confirmation' \
          -mesg 'Are you sure?' \
-         -theme ${dir}/${theme}.rasi
+         -theme ~/.config/rofi/config-power.rasi
   }
 
   confirm_exit() {
