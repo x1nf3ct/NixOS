@@ -6,7 +6,7 @@
       "super + shift + Return" = "nautilus";
       "super + d" = "rofi -show drun";
       "super + Escape" = "pkill -USR1 -x sxhkd";
-      "ctrl + alt + f" = "firefox";
+      "ctrl + alt + f" = "brave";
       "super + x" = "powermenu";
       "XF86AudioRaiseVolume" = "volume-control up";
       "XF86AudioLowerVolume" = "volume-control down";
