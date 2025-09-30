@@ -8,12 +8,16 @@
     vscode
     gnome-text-editor
     wget
-    htop
-    neofetch
-    firefox
-    nitrogen
-    rofi
-    copyq
+    btop
+    brave
+    rofi-wayland
+    wlogout
+    wl-clipboard
+    wl-clip-persist
+    solaar
+    swayidle
+    swayosd
+    clipse
     redshift
     networkmanagerapplet
     gnome-calendar
@@ -21,21 +25,18 @@
     gnome-disk-utility
     pamixer
     pavucontrol
-    flameshot
+    grim
+    slurp
     nautilus
     gnome-calculator
-    gthumb
+    swappy
     file-roller
     telegram-desktop
     wasistlos
     libreoffice-fresh
     hunspell
-    evince
+    papers
     qbittorrent
     thunderbird
-    lutris
-    (import ./volume-control.nix { inherit pkgs; })
-    (import ./powermenu.nix { inherit pkgs; })
-    (import ./brightness-control.nix { inherit pkgs; })
   ];
 }

@@ -1,3 +1,5 @@
+{ lib, ... }:
+
 {
   boot = {
     plymouth.enable = true;
@@ -18,17 +20,15 @@
       "init_on_free=1"
     ];
     tmp.cleanOnBoot = true;
-    supportedFilesystems = [ "ntfs" "btrfs" ];
+    supportedFilesystems = [ "ntfs" "btrfs" "ext4" ];
     loader = {
       efi.canTouchEfiVariables = true;
-      grub = {
-        device = "nodev";
-        efiSupport = true;
-        enable = true;
-        useOSProber = true;
-        timeoutStyle = "menu";
-      };
-      timeout = 5;
+      # systemd-boot.enable = true;
+      timeout = 0;
+    };
+    lanzaboote = {
+      enable = true;
+      pkiBundle = "/var/lib/sbctl";
     };
     kernelModules = [
       "tcp_bbr"

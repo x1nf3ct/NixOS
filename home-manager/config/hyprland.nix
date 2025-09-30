@@ -7,6 +7,7 @@
       "$mod" = "SUPER";
       monitor = ",preferred,auto,auto";
       exec-once = [
+        "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
         "dunst"
         "nm-applet"
         "waybar"
@@ -14,6 +15,9 @@
         "numlockx on"
         "redshift -O 4500K"
         "clipse -listen"
+        "swayosd-server"
+        "solaar -w hide"
+        "swayidle -w timeout 600 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on'"
       ];
       env = [
         "XCURSOR_SIZE,16"
@@ -70,9 +74,6 @@
       master = {
         new_status = "master";
       };
-      gestures = {
-        workspace_swipe = true;
-      };
       misc = {
         force_default_wallpaper = 0;
         disable_hyprland_logo = true;
@@ -99,7 +100,7 @@
         ];
       };
       bind = [
-        "$mod, F, exec, firefox"
+        "$mod, F, exec, brave"
         "$mod, Return, exec, kitty"
         "$mod, Q, killactive"
         "$mod, M, exit"

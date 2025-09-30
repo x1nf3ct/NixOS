@@ -3,7 +3,7 @@
 {
   users.users.x1nf3ct = {
     isNormalUser = true;
-    initialPassword = "password";
+    # initialPassword = "password";
     extraGroups = [ "wheel" "networkmanager" "audio" "video" "libvirtd" ];
   };
   programs.bash = {

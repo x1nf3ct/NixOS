@@ -4,6 +4,7 @@
   environment.systemPackages = with pkgs; [
     grub2
     efibootmgr
+    sbctl
     gcc
     gnumake
     (callPackage ./sddm.nix {})

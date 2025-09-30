@@ -2,9 +2,9 @@
   fonts.fontconfig = {
     enable = true;
     defaultFonts = {
-      serif = [ "IBM Plex Serif" "IBM Plex Sans Arabic" "Noto Serif" "Noto Serif CJK" ];
-      sansSerif = [ "Fira Sans" "IBM Plex Sans Arabic" "Noto Sans" "Noto Sans CJK" ];
-      monospace = [ "JetBrains Mono" "Noto Sans Mono" ];
+      serif = [ "Roboto Serif" "Noto Naskh Arabic" /*"IBM Plex Sans Arabic"*/ "Noto Serif CJK" ];
+      sansSerif = [ "Roboto" "Noto Naskh Arabic" /*"IBM Plex Sans Arabic"*/ "Noto Sans CJK" ];
+      monospace = [ "JetBrains Mono" ];
       emoji = [ "Noto Color Emoji" "Twemoji" "Segoe UI Emoji" "Apple Color Emoji" ];
     };
   };

@@ -20,6 +20,8 @@
       corefonts
       vista-fonts
       ibm-plex
+      roboto-serif
+      roboto
       (callPackage ./fonts-custom.nix {})
     ];
   };

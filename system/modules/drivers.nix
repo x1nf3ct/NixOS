@@ -1,4 +1,4 @@
-{ config, ... }:
+{ config, lib, pkgs, ... }:
 
 {
   services.xserver.videoDrivers = [ "nvidia" ];
@@ -10,6 +10,7 @@
     graphics = {
       enable = true;
       enable32Bit = true;
+      extraPackages = with pkgs; [ libva-vdpau-driver libvdpau-va-gl vaapi-intel-hybrid nvidia-vaapi-driver ];
     };
     nvidia = {
       modesetting.enable = true;
