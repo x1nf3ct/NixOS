@@ -23,13 +23,13 @@
     supportedFilesystems = [ "ntfs" "btrfs" "ext4" ];
     loader = {
       efi.canTouchEfiVariables = true;
-      # systemd-boot.enable = true;
+      systemd-boot.enable = true;
       timeout = 0;
     };
-    lanzaboote = {
+    /*lanzaboote = {
       enable = true;
       pkiBundle = "/var/lib/sbctl";
-    };
+    };*/
     kernelModules = [
       "tcp_bbr"
       "nvidia"
